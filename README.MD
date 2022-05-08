@@ -116,3 +116,116 @@
 - ### **Recovery time objective (RTO)**: _The maximum acceptable delay between the interruption of service and restoration of service. This determines an acceptable length of time for service downtime._
 
 - ### **Recovery point objective (RPO)**: _The maximum acceptable amount of time since the last data recovery point._
+
+- #### **_GuardDuty is a threat detection service that monitors malicious activity and unauthorized behavior to protect your AWS account. GuardDuty analyzes billions of events across your AWS accounts from AWS CloudTrail (AWS user and API activity in your accounts)_**
+
+- #### **_AWS Global Accelerator and Amazon CloudFront are separate services that use the AWS global network and its edge locations around the world. CloudFront improves performance for both cacheable content (such as images and videos) and dynamic content (such as API acceleration and dynamic site delivery). Global Accelerator improves performance for a wide range of applications over TCP or UDP by proxying packets at the edge to applications running in one or more AWS Regions_**
+
+- Hadoop=EMR
+
+# Exam Alerts
+
+- #### _Exam Alert_: **AWS Step Functions VS AWS Batch**
+
+  You can use AWS Batch to plan, schedule and execute your batch computing workloads across the full range of AWS compute services. AWS Batch dynamically provisions the optimal quantity and type of compute resources (e.g., CPU or memory optimized instances) based on the volume and specific resource requirements of the batch jobs submitted.
+  You cannot use Step Functions to plan, schedule and execute your batch computing workloads by provisioning underlying resources.
+  step funtion handle microservices
+
+- #### Exam Alert:
+
+  **Amazon S3 is a unique service in the sense that it follows a global namespace but the buckets are regional.
+  AWS Acceptable Use Policy**
+
+- #### Exam Alert:
+
+  **Watch out for questions on AWS Cost Explorer vs AWS Budgets. AWS Budgets can alert you when your costs exceed your budgeted amount. Cost Explorer helps you visualize and manage your AWS costs and usage over time.**
+
+- Amazon Comprehend language processing
+
+- cloudfont and iam global services
+
+- AWS Outposts
+
+- AWS Wavelength == 5G
+- Amazon GuardDuty is a threat detection service that continuously monitors your AWS accounts and workloads. While AWS Resource Access Manager is used to securely share your resources across your AWS accounts.
+
+- AWS OpsWorks == aoutumate server configuration
+
+- Amazon FSx for Lustre == linux
+
+- Amazon FSx for Windows File Server
+
+- Tape Gateway, File Gateway and Volume Gateway
+
+- Hybrid deployment
+
+- Amazon Athena
+
+- The services that are part of foundations are: Amazon VPC, AWS Trusted Advisor, AWS Service Quotas (earlier known as AWS Service Limits).
+- Amazon Kendra
+
+- Amazon Comprehend
+
+- #### Exam Alert:
+
+  **You may see a question around this concept in the exam. Just remember that only S3 and DynamoDB support VPC Endpoint Gateway. All other services that support VPC Endpoints use a VPC Endpoint Interface.**
+
+- AWS Transit Gateway
+
+- Amazon Macie == s3
+
+- Amazon GuardDuty
+
+- Use CloudWatch Logs for both the EC2 instance and the on-premises servers
+
+- large volumes== snowball
+
+- AWS Cost and Usage Reports == export bill and break down
+
+- wellarchitecture and pain support review
+
+- Storing files in an accessible location to satisfy audit requirements - The Standard–IA storage class reduces storage costs for files that are not accessed every day.
+
+- JSON == Effect,action
+
+- Rekognition == Identify objects in a photo
+
+- #### Exam Alert:
+
+  **Please review the differences between:** "**AWS Cost and Usage Reports" and "AWS Cost Explorer**". Think of "AWS Cost and Usage Reports" as a cost management tool providing the most detailed cost and usage data for your AWS account. It can provide reports that break down your costs by the hour into your S3 bucket. On the other hand, "AWS Cost Explorer" is more of a high-level cost management tool that helps you visualize the costs and usage associated with your AWS account.
+  Read Replica improves database scalability
+
+- #### Exam Alert:
+
+  **Please review the differences between Multi-AZ, Multi-Region and Read Replica deployments for RDS:
+  High Availability by default? == EFS,DynamoDB
+  Site-to-Site VPN == Virtual Private Gateway, Customer Gateway, transit gateway, customer gateway device
+  Use Cross-Region replication (CRR) to replicate data between distant AWS Regions**
+
+- #### Exam Alert:
+
+  **Please review the differences between SRR and CRR.**
+
+- AWS Budgets - Cost budget, Usage budget, Reservation budget and Savings Plans budget.
+
+- Which AWS service can help you forecast your next AWS bill for the services you use? == AWS Cost Explorer
+
+- s3 archival = s3 galicer
+
+- centraly manage server = system manager
+
+- on-premis and cloud monitor server = cloudwatch
+
+- billing alaram = cloudwatch
+
+- #### Exam Alert:
+
+  **While the Service Health Dashboard displays the general status of AWS services, Personal Health Dashboard gives you a personalized view of the performance and availability of the AWS services underlying your AWS resources.**
+
+- container service = faragte
+
+- S3 is a key value based object storage service
+
+- S3 stores data in a flat non-hierarchical structure
+
+- trusted advisor = s3 buckets, colud trail user activity logs
