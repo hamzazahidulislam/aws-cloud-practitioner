@@ -105,4 +105,14 @@
 
 - ### **Resiliency** - _Describes the ability of a system to recover from a failure induced by the load (data or network), attacks, and failures (hardware, software, or network failures)._
 
- Agility - Agility refers to the ability of the cloud to give you easy access to a broad range of technologies so that you can innovate faster and build nearly anything that you can imagine
+- ### **Agility** - _Agility refers to the ability of the cloud to give you easy access to a broad range of technologies so that you can innovate faster and build nearly anything that you can imagine_
+
+- ### **Cost savings** - _The cloud allows you to trade capital expenses (such as data centers and physical servers) for variable expenses, and only pay for IT as you consume it._
+
+- ### **Ability to deploy globally in minutes** - _With the cloud, you can expand to new geographic regions and deploy globally in minutes_
+
+- SQL injection and cross-site scripting == WAF
+
+- ### **Recovery time objective (RTO)**: _The maximum acceptable delay between the interruption of service and restoration of service. This determines an acceptable length of time for service downtime._
+
+- ### **Recovery point objective (RPO)**: _The maximum acceptable amount of time since the last data recovery point._
