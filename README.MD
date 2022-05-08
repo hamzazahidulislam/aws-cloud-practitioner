@@ -96,3 +96,13 @@
   - Think resource-specific change history, audit, and compliance; think Config.
 
 - coludtraillog default encryption enabled and automaticly encryption enable aws storage gateway and s3 glacier
+
+- ### **Elasticity**: _(The ability to acquire resources as you need and release when they are no longer needed is termed as Elasticity of the Cloud. With cloud computing)_
+
+- ### **Reliability** - _Refers to the ability of a system to recover from infrastructure or service disruptions, by dynamically acquiring computing resources to meet demand, and mitigate disruptions._
+
+- ### **Durability** - _Refers to the ability of a system to assure data is stored and data remains consistently on the system as long as it is not changed by legitimate access,_
+
+- ### **Resiliency** - _Describes the ability of a system to recover from a failure induced by the load (data or network), attacks, and failures (hardware, software, or network failures)._
+
+ Agility - Agility refers to the ability of the cloud to give you easy access to a broad range of technologies so that you can innovate faster and build nearly anything that you can imagine
