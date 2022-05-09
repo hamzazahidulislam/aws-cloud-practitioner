@@ -244,3 +244,8 @@
 - Infrastructure Event Management = enterprice
 
 - AWS charges you for data transferred between two different Regions.
+
+- #### 1. Agility
+  **The cloud allows you to innovate faster because you can focus your valuable IT resources on developing applications that differentiate your business and transform customer
+  elesticity
+  Before cloud computing, you had to overprovision infrastructure to ensure you had enough capacity to handle your business operations at the peak level of activity.**
