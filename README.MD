@@ -301,3 +301,52 @@
 - #### **Application Load Balancer** - This is best suited for load balancing of HTTP and HTTPS traffic and provides advanced request routing targeted at the delivery of modern application architectures, including microservices and containers. Operating at the individual request level (Layer 7), Application Load Balancer routes traffic to targets within Amazon Virtual Private Cloud (Amazon VPC) based on the content of the request.
 
 - #### **Network Load Balancer** - This is best suited for load balancing of Transmission Control Protocol (TCP), User Datagram Protocol (UDP) and Transport Layer Security (TLS) traffic where extreme performance is required. Operating at the connection level (Layer 4), Network Load Balancer routes traffic to targets within Amazon Virtual Private Cloud (Amazon VPC) and is capable of handling millions of requests per second while maintaining ultra-low latencies. Network Load Balancer is also optimized to handle sudden and volatile traffic patterns.
+
+- #### **Classic Load Balancer** - This provides basic load balancing across multiple Amazon EC2 instances and operates at both the request level and connection level. Classic Load Balancer is intended for applications that were built within the EC2-Classic network.
+
+- #### **Gateway Load Balancer** - This provides both Layer 3 gateway and Layer 4 load balancing capabilities. It is a transparent bump-in-the-wire device that does not change any part of the packet. It is architected to handle millions of requests/second, volatile traffic patterns, and introduces extremely low latency.
+
+- AWS Snowmobile is incorrect because this is primarily used to migrate tens of petabytes to exabytes of data in batches to the cloud.
+
+- AWS Snowcone is incorrect. Although it is a data transport solution like Snowball Edge, it is not suitable for moving terabytes to petabytes of data. Take note that the usable storage for Snowcone is only 8 TB.
+- AWS Snowball Edge = moving terabytes to petabytes of data
+
+- APN Consulting Partners are professional services firms that help customers of all sizes design, architect, migrate, or build new applications on AWS. Consulting Partners include System Integrators (SIs), Strategic Consultancies, Resellers, Digital Agencies, Managed Service Providers (MSPs), and Value-Added Resellers (VARs).
+
+- APN Technology Partners provide software solutions that are either hosted on, or integrated with, the AWS platform. Technology Partners include Independent Software Vendors (ISVs), SaaS, PaaS, developer tools, management and security vendors.
+
+- Amazon Chime == google meet or zoom
+
+- Amazon Connect == slak or discord
+
+- serlverless = step function
+
+- not serverless = aws batch
+
+- Reserved Instance usage = AWS Billing Console
+
+- lowest support plan that allows an unlimited number of technical support cases 1 primary contact = developer
+
+- General Purpose SSD - Recommended for most workloads;
+
+- Provisioned IOPS SSD - Meant for critical business applications that require sustained IOPS performance;
+
+- Throughput Optimized HDD - Meant for streaming workloads requiring consistent,
+
+- Cold HDD - Meant for throughput-oriented storage for large volumes of data that is infrequently accessed,
+
+- consolited billing = such as Amazon EC2 and Amazon S3
+
+- SOA = Decouple your components.
+
+- host operating system of an Amazon EC2 instance? = aws
+
+- serverless = lamda@edge, api gateway
+
+- add more ec2 resource pool is a = horizontal scaling
+
+- add more cpu is a = vertical scaling
+
+- fully inherit from AWS = Physical and Environmental Controls
+
+- ci+cd = AWS CodeStar
