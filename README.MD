@@ -398,3 +398,46 @@
 - Kines data stream service
 
 - **Important**: Multi-AZ deployments are not a read scaling solution, you cannot use a standby replica to serve read traffic. The standby is only there for failover.
+
+- Amazon RDS Multi-AZ deployments provide enhanced availability and durability for RDS database (DB) instances.
+- Amazon RDS Multi-AZ deployments provide enhanced availability for database instances within a single AWS Region. With Multi-AZ, your data is synchronously replicated to a standby instance in a different AZ.
+
+- You need to use RDS in Multi-Region deployment configuration to protect from a regional failure. Multi-AZ cannot protect from a regional failure.
+- AWS Developer Support plan allows one primary contact to open unlimited cases.
+- A VPC spans all of the Availability Zones in the Region whereas a subnet spans only one Availability Zone in the Region
+
+- Compute optimizer
+
+- Ec2 instance,ec2 auto scaling group
+
+- EBS volume, AWS lambda function
+
+- CloudHSM hardware security
+
+- AWS inspector for application assesses, vulnerable and deviations
+
+- **S3 Transfer Acceleration** : Amazon S3 Transfer Acceleration (S3TA) enables fast, easy, and secure transfers of files over long distances between your client and your Amazon S3 bucket
+
+**Route 53 key features are:**
+
+- Resolver - get recursive DNS for your Amazon VPC and on-premises networks.
+
+- Traffic flow - route end users to the best endpoint for your application based on geoproximity, latency, health, and other considerations.
+
+- Latency-based routing - route end users to the AWS region that provides the lowest possible latency.
+
+- Geo DNS - route end users to a particular endpoint that you specify based on the end user’s geographic location.
+
+- Private DNS for Amazon VPC - Manage custom domain names for your internal AWS resources without exposing DNS data to the public Internet.
+
+- DNS Failover - automatically route your website visitors to an alternate location to avoid site outages.
+
+- Health Checks and Monitoring - monitor your application's health and performance, as well as your web servers and other resources.
+
+- Domain Registration - search for and register available domain names or transfer in existing domain names.
+
+**_Hence, the correct answers are:_**
+
+- DNS Resolution
+
+- Domain Registration
