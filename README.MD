@@ -268,32 +268,36 @@
 - Elasticity is the ability to acquire resources as you need them and release resources when you no longer need them. In the cloud, you want to do this automatically.
 - Durability is incorrect since this characteristic concerns data durability than handling server load.
 
-Permitted Services – You're welcome to conduct security assessments against AWS resources that you own if they make use of the services listed below. Take note that AWS is constantly updating this list:
+- Permitted Services – You're welcome to conduct security assessments against AWS resources that you own if they make use of the services listed below. Take note that AWS is constantly updating this list:
 
-- Amazon EC2 instances, NAT Gateways, and Elastic Load Balancers
+  - Amazon EC2 instances, NAT Gateways, and Elastic Load Balancers
 
-- Amazon RDS
+  - Amazon RDS
 
-- Amazon CloudFront
+  - Amazon CloudFront
 
-- Amazon Aurora
+  - Amazon Aurora
 
-- Amazon API Gateways
+  - Amazon API Gateways
 
-- AWS Lambda and Lambda Edge functions
+  - AWS Lambda and Lambda Edge functions
 
-- Amazon Lightsail resources
+  - Amazon Lightsail resources
 
-- Amazon Elastic Beanstalk environments
+  - Amazon Elastic Beanstalk environments
 
-Prohibited Activities – The following activities are prohibited at this time:
+- Prohibited Activities – The following activities are prohibited at this time:
 
-- DNS zone walking via Amazon Route 53 Hosted Zones
+  - DNS zone walking via Amazon Route 53 Hosted Zones
 
-- Denial of Service (DoS), Distributed Denial of Service (DDoS), Simulated DoS, Simulated DDoS
+  - Denial of Service (DoS), Distributed Denial of Service (DDoS), Simulated DoS, Simulated DDoS
 
-- Port flooding
+  - Port flooding
 
-- Protocol flooding
+  - Protocol flooding
 
-- Request flooding (login request flooding, API request flooding)
+  - Request flooding (login request flooding, API request flooding)
+
+- #### **Application Load Balancer** - This is best suited for load balancing of HTTP and HTTPS traffic and provides advanced request routing targeted at the delivery of modern application architectures, including microservices and containers. Operating at the individual request level (Layer 7), Application Load Balancer routes traffic to targets within Amazon Virtual Private Cloud (Amazon VPC) based on the content of the request.
+
+- #### **Network Load Balancer** - This is best suited for load balancing of Transmission Control Protocol (TCP), User Datagram Protocol (UDP) and Transport Layer Security (TLS) traffic where extreme performance is required. Operating at the connection level (Layer 4), Network Load Balancer routes traffic to targets within Amazon Virtual Private Cloud (Amazon VPC) and is capable of handling millions of requests per second while maintaining ultra-low latencies. Network Load Balancer is also optimized to handle sudden and volatile traffic patterns.
