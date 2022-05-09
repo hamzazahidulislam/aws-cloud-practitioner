@@ -350,3 +350,51 @@
 - fully inherit from AWS = Physical and Environmental Controls
 
 - ci+cd = AWS CodeStar
+
+- WAF protection layer 7
+
+- AWS shield 🛡️ layer 3/4
+
+- Amazon Macie for secure you data or protect PII.
+
+- AWS glue
+
+- AWS service catalog
+
+- AWS APN partner
+
+- Latency routing policy
+
+- Failover routing policy - This routing policy is used when you want to configure active-passive failover.
+
+- Weighted routing policy - This routing policy is used to route traffic to multiple resources in proportions that you specify.
+
+- Simple routing policy - With simple routing, you typically route traffic to a single resource, for example, to a web server for your website.
+
+- #### Artifact :
+
+  **AWS Artifact is your central resource for compliance-related information on AWS Cloud. It provides on-demand access to AWS’ security and compliance reports and select online agreements.**
+
+- AWS rekognition (SaaS)
+
+- Well-Architected Framework:
+
+- operational excellence, security, reliability, performance efficiency, and cost optimization
+
+- S3 standard
+
+- S3 Intelligent- Tiering\*
+
+- S3 Standard-IA
+
+- S3 One Zone-IAt : (S3 One Zone-IA stores data in a single AZ and costs 20% less than S3 Standard-IA)
+
+- S3 Glacier
+
+- S3 Glacier Deep Archive
+
+- Amazon MQ
+
+- Kines data stream service
+
+- **Important**: Multi-AZ deployments are not a read scaling solution, you cannot use a standby replica to serve read traffic. The standby is only there for failover.
