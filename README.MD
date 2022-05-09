@@ -229,3 +229,18 @@
 - S3 stores data in a flat non-hierarchical structure
 
 - trusted advisor = s3 buckets, colud trail user activity logs
+
+- Which AWS Support plan provides general architectural guidance on how services can be used for various use-cases, workloads, or applications? developer = enterprise
+
+- AWS Shield Standard = perview shared responsibility
+
+- **\*You pay for all bandwidth into and out of Amazon S3**, except for the following: (1) Data transferred in from the internet, (2) Data transferred out to an Amazon Elastic Compute Cloud (Amazon EC2) instance, when the instance is in the same AWS Region as the S3 bucket, (3) Data transferred out to Amazon CloudFront (CloudFront).
+  AWS Shield Advanced provides expanded DDoS attack protection for web applications running on the following resources: Amazon Elastic Compute Cloud, Elastic Load Balancing (ELB), Amazon CloudFront, Amazon Route 53, AWS Global Accelerator.\*
+
+- VPC Interface Endpoint == SNS
+
+- S3 Standard has no constraint of a minimum storage duration for objects.
+
+- Infrastructure Event Management = enterprice
+
+- AWS charges you for data transferred between two different Regions.
